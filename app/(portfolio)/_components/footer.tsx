@@ -68,120 +68,52 @@ export const Footer = () => {
 						</nav>
 					</div>
 
-					{/* Right column - Get in Touch & Connect */}
-					<div className="space-y-8">
-						<div>
-							<h4 className="text-lg font-semibold mb-6">Get in Touch</h4>
-							<div className="bg-slate-900/80 border border-slate-800 rounded-lg p-4">
-								<p className="text-sm text-gray-300 mb-4">
-									AI Engineer & Marketing Specialist with a passion for creating
-									intelligent solutions that deliver measurable business impact.
-								</p>
-
-								<div className="grid grid-cols-2 gap-3">
-									<Link
-										href="mailto:aryateja2106@gmail.com"
-										className="place-items-center place-content-center py-2 px-3 bg-slate-800 hover:bg-slate-700 rounded-md text-sm text-gray-300 hover:text-white transition-colors"
-									>
-										<svg
-											aria-hidden="true"
-											className="size-4"
-											fill="none"
-											stroke="currentColor"
-											viewBox="0 0 24 24"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												strokeLinecap="round"
-												strokeLinejoin="round"
-												strokeWidth={2}
-												d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-											/>
-										</svg>
-										Email Me
-									</Link>
-									<Link
-										href="/contact"
-										className="place-items-center place-content-center py-2 px-3 bg-slate-800 hover:bg-slate-700 rounded-md text-sm text-gray-300 hover:text-white transition-colors"
-									>
-										<svg
-											aria-hidden="true"
-											className="size-4"
-											fill="none"
-											stroke="currentColor"
-											viewBox="0 0 24 24"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												strokeLinecap="round"
-												strokeLinejoin="round"
-												strokeWidth={2}
-												d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-											/>
-										</svg>
-										Schedule Call
-									</Link>
-								</div>
-							</div>
-						</div>
-
-						<div>
-							<h4 className="text-lg font-semibold mb-4">Connect</h4>
-							<div className="flex space-x-4">
-								<Link
-									href="https://github.com/"
-									target="_blank"
-									rel="noopener noreferrer"
-									className="size-10 grid place-items-center place-content-center rounded-full bg-slate-800 hover:bg-slate-700 text-gray-400 hover:text-white transition-colors"
-									aria-label="GitHub"
-								>
-									<svg
-										aria-hidden="true"
-										className="size-5"
-										fill="currentColor"
-										viewBox="0 0 24 24"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-									</svg>
-								</Link>
-								<Link
-									href="https://linkedin.com/in/arya-teja-rudraraju"
-									target="_blank"
-									rel="noopener noreferrer"
-									className="size-10 grid place-items-center place-content-center rounded-full bg-slate-800 hover:bg-slate-700 text-gray-400 hover:text-white transition-colors"
-									aria-label="LinkedIn"
-								>
-									<svg
-										aria-hidden="true"
-										className="size-5"
-										fill="currentColor"
-										viewBox="0 0 24 24"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-									</svg>
-								</Link>
-								<Link
-									href="https://twitter.com/"
-									target="_blank"
-									rel="noopener noreferrer"
-									className="size-10 grid place-items-center place-content-center rounded-full bg-slate-800 hover:bg-slate-700 text-gray-400 hover:text-white transition-colors"
-									aria-label="Twitter"
-								>
-									<svg
-										aria-hidden="true"
-										className="size-5"
-										fill="currentColor"
-										viewBox="0 0 24 24"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
-									</svg>
-								</Link>
-							</div>
-						</div>
-					</div>
+        <div className="col-span-1">
+          <h3 className="text-lg font-semibold text-gray-50 mb-4">Get in Touch</h3>
+          <p className="text-gray-400 mb-4">
+            AI Engineer & Marketing Specialist with a passion for creating intelligent solutions that deliver measurable business impact.
+          </p>
+          <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+            <a href="mailto:aryateja@example.com" className="flex items-center justify-center space-x-2 px-4 py-2 border border-gray-600 rounded-md text-gray-300 hover:bg-gray-800 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <rect width="20" height="16" x="2" y="4" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+              <span>Email Me</span>
+            </a>
+            <a href="https://calendly.com/your-profile" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-2 px-4 py-2 border border-gray-600 rounded-md text-gray-300 hover:bg-gray-800 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+                <line x1="16" x2="16" y1="2" y2="6" />
+                <line x1="8" x2="8" y1="2" y2="6" />
+                <line x1="3" x2="21" y1="10" y2="10" />
+              </svg>
+              <span>Schedule Call</span>
+            </a>
+          </div>
+          
+          {/* Social media icons are now directly below the buttons */}
+          <div className="mt-6 flex space-x-4">
+			<a href="https://github.com/aryateja" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-50 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.15-1.1-1.46-1.1-1.46-.9-.6.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.88 1.5 2.3 1.07 2.87.82.09-.64.34-1.07.62-1.31-2.18-.2-4.47-1.09-4.47-4.83 0-1.07.38-1.95 1.02-2.63-.1-.2-.44-1.25.1-2.61 0 0 .82-.26 2.68 1.02a9.45 9.45 0 0 1 5-1.35c.67.07 1.34.11 2 .11s1.33-.04 2-.11c1.86-1.28 2.68-1.02 2.68-1.02.54 1.36.2 2.41.1 2.61.64.68 1.02 1.56 1.02 2.63 0 3.75-2.3 4.63-4.48 4.83.35.3.68.85.68 1.7v2.51c0 .26.18.57.69.47A10 10 0 0 0 12 2z"/>
+              </svg>
+            </a>
+            <a href="https://linkedin.com/in/aryateja" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-50 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect width="4" height="12" x="2" y="9" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </a>
+            <a href="https://twitter.com/aryateja" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-50 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+              </svg>
+            </a>
+           
+          </div>
+        </div>
 				</div>
 
 				{/* Bottom bar with copyright and links */}
@@ -236,5 +168,8 @@ export const Footer = () => {
 		</footer>
 	);
 };
+
+
+
 
 export default Footer;
