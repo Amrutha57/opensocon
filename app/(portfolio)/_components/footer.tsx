@@ -42,13 +42,11 @@ export const Footer = () => {
 								Home
 							</Link>
 							<Link
-								href="/about"
 								className="text-gray-400 hover:text-teal-400 transition-colors"
 							>
 								About
 							</Link>
 							<Link
-								href="/projects"
 								className="text-gray-400 hover:text-teal-400 transition-colors"
 							>
 								Projects
@@ -60,7 +58,6 @@ export const Footer = () => {
 								Blog
 							</Link>
 							<Link
-								href="/contact"
 								className="text-gray-400 hover:text-teal-400 transition-colors"
 							>
 								Contact
@@ -81,7 +78,6 @@ export const Footer = () => {
               </svg>
               <span>Email Me</span>
             </a>
-            <a href="https://calendly.com/your-profile" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-2 px-4 py-2 border border-gray-600 rounded-md text-gray-300 hover:bg-gray-800 transition-colors">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
                 <line x1="16" x2="16" y1="2" y2="6" />
@@ -94,19 +90,16 @@ export const Footer = () => {
           
           {/* Social media icons are now directly below the buttons */}
           <div className="mt-6 flex space-x-4">
-			<a href="https://github.com/aryateja" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-50 transition-colors">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.15-1.1-1.46-1.1-1.46-.9-.6.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.88 1.5 2.3 1.07 2.87.82.09-.64.34-1.07.62-1.31-2.18-.2-4.47-1.09-4.47-4.83 0-1.07.38-1.95 1.02-2.63-.1-.2-.44-1.25.1-2.61 0 0 .82-.26 2.68 1.02a9.45 9.45 0 0 1 5-1.35c.67.07 1.34.11 2 .11s1.33-.04 2-.11c1.86-1.28 2.68-1.02 2.68-1.02.54 1.36.2 2.41.1 2.61.64.68 1.02 1.56 1.02 2.63 0 3.75-2.3 4.63-4.48 4.83.35.3.68.85.68 1.7v2.51c0 .26.18.57.69.47A10 10 0 0 0 12 2z"/>
               </svg>
             </a>
-            <a href="https://linkedin.com/in/aryateja" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-50 transition-colors">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
                 <rect width="4" height="12" x="2" y="9" />
                 <circle cx="4" cy="4" r="2" />
               </svg>
             </a>
-            <a href="https://twitter.com/aryateja" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-50 transition-colors">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
               </svg>
